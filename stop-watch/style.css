@@ -1,0 +1,107 @@
+#restart {
+    display: none;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: black;
+    color: greenyellow;
+}
+
+.time-row {
+    font-size: 70px;
+    margin-top: 50px;
+}
+
+
+h1 {
+    font-size: 70px;
+    color: red;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.btn {
+    color: rgb(247, 247, 247);
+    border: #7cfc00 0.2px solid;
+    font-size: 25px;
+    margin: 40px;
+}
+
+.buttons {
+    margin-top: 45px;
+}
+
+#milisec {
+    font-size: 45px;
+    padding-top: 30px;
+
+}
+
+@media(max-width:1024px) {
+    .time-row {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #milisec {
+        font-size: 15px;
+        padding-top: 15px;
+
+    }
+
+    h1 {
+        font-size: 50px;
+        color: red;
+        text-transform: uppercase;
+    }
+
+    .btn {
+        width: 82px;
+        font-size: 50%;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        margin-right: 12px;
+        margin-left: 12px;
+    }
+
+}
+
+#save-time {
+    display: none;
+}
+
+input {
+    background-color: black;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    border: 0.1px solid rgb(32, 32, 32);
+
+}
+
+.remove-btn {
+    margin: 0px;
+    width: 15px;
+    cursor: pointer;
+}
+
+.new-row {
+    margin-top: 35px;
+    font-size: 18px;
+    padding-bottom: 15px;
+    border-bottom: 0.1px solid white;
+}
+
+#div-to-add {
+    margin-top: 50px;
+}
+
+.add-time {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+#row-save-time {
+    margin-top: 50px;
+}
